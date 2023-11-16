@@ -29,7 +29,7 @@ int main() {
             {'b', 'y', 'w', 'b'}
     };
 
-    cout << "Visual representation of colors:" <<endl;
+    cout << "Visual representation of colors: " <<endl;
     displayColors(colorMatrix);
 
     return 0;
