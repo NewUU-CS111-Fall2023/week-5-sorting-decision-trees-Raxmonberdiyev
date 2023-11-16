@@ -14,7 +14,7 @@ void displayColors(const vector<vector<char>>& matrix) {
             } else if (symbol == white) {
                 cout << "\033[47m  ";
             } else {
-                cout << "Unknown symbol ";
+                cout << "Unknown symbol";
             }
         }
         cout << "\033[0m" << endl;
